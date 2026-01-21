@@ -1,6 +1,6 @@
-# SignFlow 🌟
+# SignFlow 
 
-<div align="center">
+<div align="cen
 
 ![SignFlow Logo](https://img.shields.io/badge/SignFlow-Assistive%20Tech-blue?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.2-blue?logo=react)
@@ -9,7 +9,6 @@
 
 **A professional, immersive text-to-sign language translation platform**
 
-*Inspired by assistive technology platforms like Signvrse*
 
 [Features](#-features) • [Quick Start](#-quick-start) • [Documentation](#-documentation) • [Tech Stack](#-tech-stack) • [Demo](#-demo)
 
@@ -17,11 +16,11 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 SignFlow is a full-stack web application that provides real-time text-to-sign language translation with an interactive 3D avatar. Built with modern web technologies, it offers an immersive experience for learning and using sign language, complete with analytics, user profiles, and AI-powered suggestions.
 
-### 🎯 Key Highlights
+###  Key Highlights
 
 - **Real-Time Translation**: Word-by-word animation as you type (no submit button needed!)
 - **3D Avatar with Micro-Expressions**: Eye blinks, head nods, and natural body movements
@@ -32,9 +31,9 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎬 Core Functionality
+###  Core Functionality
 
 #### Real-Time Translation
 - **Live Typing Mode**: Animations trigger as you type (500ms debounce)
@@ -64,7 +63,7 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 - **Dynamic Parameters**: Speed, position, and expression variations per animation
 - **Easter Eggs**: Special animations for fun phrases (try "hello world", "I love you", or "dance"!)
 
-### 👤 User Features
+###  User Features
 
 - **User Authentication**: Secure registration and login with JWT tokens
 - **Guest Mode**: Try the platform without creating an account
@@ -75,7 +74,7 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 - **Random Phrase Challenge**: Interactive learning feature with random phrases
 - **Analytics Dashboard**: Comprehensive charts and statistics
 
-### 🎨 UI/UX Features
+###  UI/UX Features
 
 - **Split-Screen Layout**: Text input on one side, 3D avatar on the other
 - **Animated Background**: Subtle gradient animation responsive to activity
@@ -84,7 +83,7 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 - **Professional Design**: Neutral color palette (soft grays, muted blues)
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
 
-### ♿ Accessibility Features
+###  Accessibility Features
 
 - **High Contrast Mode**: Toggle for better visibility
 - **Font Size Controls**: Small, medium, and large options
@@ -93,7 +92,7 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 - **Focus Indicators**: Clear visual focus states
 - **WCAG Compliant**: Meets accessibility standards
 
-### 📊 Analytics & Insights
+###  Analytics & Insights
 
 - **Translation Activity Charts**: Line charts showing activity over time
 - **Session Duration Tracking**: Bar charts for session analytics
@@ -103,7 +102,7 @@ SignFlow is a full-stack web application that provides real-time text-to-sign la
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -183,7 +182,7 @@ This creates 3 test users:
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 ### API Endpoints
 
@@ -313,7 +312,7 @@ The application uses WebSocket for real-time communication:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18.2** - UI library
@@ -340,7 +339,7 @@ The application uses WebSocket for real-time communication:
 
 ---
 
-## 🎮 Usage Guide
+##  Usage Guide
 
 ### Basic Translation
 
@@ -374,7 +373,7 @@ Try these phrases for special animations:
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 SignFlow/
@@ -432,7 +431,7 @@ SignFlow/
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -461,7 +460,7 @@ REACT_APP_WS_URL=ws://localhost:5000
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Test Users (from seed data)
 
@@ -487,7 +486,7 @@ After running `npm run seed` in the backend directory:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment
 
@@ -514,7 +513,7 @@ After running `npm run seed` in the backend directory:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! This is a portfolio project, but suggestions and improvements are appreciated.
 
@@ -523,18 +522,18 @@ Contributions are welcome! This is a portfolio project, but suggestions and impr
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+4. Push to the branch (`git push -b feature feature/amazing-feature`)
 5. Open a Pull Request
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by assistive technology platforms like Signvrse
 - Built with modern web technologies for accessibility and performance
@@ -550,7 +549,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 
 Potential features for future development:
 
@@ -567,8 +566,8 @@ Potential features for future development:
 
 <div align="center">
 
-**Built with ❤️ for accessibility and assistive technology**
+**Built for accessibility and assistive technology**
 
-⭐ Star this repo if you find it helpful!
+ Star this repo if you find it helpful!
 
 </div>
