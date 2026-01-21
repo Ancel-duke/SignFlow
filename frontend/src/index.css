@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Neutral color palette */
+  --color-primary: #5B7FA6;
+  --color-primary-dark: #4A6B8F;
+  --color-primary-light: #7A9BC4;
+  --color-secondary: #8B9BA8;
+  --color-background: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-text: #2C3E50;
+  --color-text-light: #6C7A89;
+  --color-border: #E1E8ED;
+  --color-success: #27AE60;
+  --color-error: #E74C3C;
+  --color-warning: #F39C12;
+  
+  /* High contrast mode colors */
+  --hc-background: #000000;
+  --hc-surface: #1A1A1A;
+  --hc-text: #FFFFFF;
+  --hc-border: #FFFFFF;
+  
+  /* Font sizes */
+  --font-small: 0.875rem;
+  --font-medium: 1rem;
+  --font-large: 1.25rem;
+  --font-xlarge: 1.5rem;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* High contrast mode */
+body.high-contrast {
+  background-color: var(--hc-background);
+  color: var(--hc-text);
+}
+
+body.high-contrast .surface {
+  background-color: var(--hc-surface);
+  border-color: var(--hc-border);
+}
+
+/* Font size adjustments */
+body.font-small {
+  font-size: var(--font-small);
+}
+
+body.font-medium {
+  font-size: var(--font-medium);
+}
+
+body.font-large {
+  font-size: var(--font-large);
+}
+
+/* Accessibility - Focus styles */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
